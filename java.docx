@@ -1,0 +1,50 @@
+Struktur Program
+
+1. HTML (Struktur Halaman)
+HTML berfungsi untuk mendefinisikan kerangka aplikasi.
+Komponen utamanya adalah:
+
+Header: Berisi menu navigasi untuk berpindah antar halaman.
+Section: Berisi konten untuk setiap fitur (Beranda, Produk, Tambah Produk, Pesanan, Laporan, Kontak).
+Footer: Berisi informasi hak cipta.
+
+2. CSS (Gaya Halaman)
+CSS digunakan untuk memberikan tampilan yang menarik dan responsif.
+Berikut adalah komponen utama gaya:
+
+Header dan Navigasi: Menu navigasi dengan latar belakang biru dan teks putih.
+Tata Letak Produk: Produk ditampilkan dalam card dengan gaya sederhana.
+Formulir Tambah Produk: Elemen input diberi margin dan padding untuk kemudahan penggunaan.
+
+3. JavaScript (Logika Program)
+JavaScript digunakan untuk membuat halaman lebih interaktif tanpa perlu memuat ulang. Berikut adalah fungsionalitas utama:
+
+Daftar Produk:
+Produk disimpan dalam array products.
+Fungsi updateProductList() memperbarui tampilan produk berdasarkan isi array.
+
+Menambah Produk:
+Formulir #productForm menangkap data dari pengguna (nama dan harga produk).
+Produk baru ditambahkan ke array, dan tampilan diperbarui.
+
+Menghapus Produk:
+Tombol "Hapus" pada setiap produk memanggil fungsi deleteProduct(index) untuk menghapus produk dari array.
+
+
+Alur Kerja Program
+
+Beranda:
+Saat pengguna membuka aplikasi, mereka diarahkan ke halaman sambutan.
+Menambah Produk:
+
+Pengguna memasukkan nama dan harga produk melalui formulir.
+Data disimpan di array products, lalu ditampilkan di halaman Produk.
+
+Melihat Produk:
+Produk ditampilkan secara dinamis dengan nama, harga, dan tombol "Hapus".
+
+Menghapus Produk:
+Saat pengguna menekan tombol "Hapus", produk yang dipilih dihapus dari array, dan daftar diperbarui.
+
+Navigasi Menu:
+Menu navigasi memungkinkan pengguna berpindah antar halaman secara langsung.

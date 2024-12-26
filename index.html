@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi UMKM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Aplikasi UMKM</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#products">Produk</a></li>
+          <li><a href="#addProduct">Tambah Produk</a></li>
+          <li><a href="#orders">Pesanan</a></li>
+          <li><a href="#reports">Laporan</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="section">
+    <div class="container">
+      <h2>Beranda</h2>
+      <p>Selamat datang di aplikasi UMKM</p>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <div class="container">
+      <h2>Produk Anda</h2>
+      <div id="productList" class="product-list">
+       
+      </div>
+    </div>
+  </section>
+
+  <section id="addProduct" class="section">
+    <div class="container">
+      <h2>Tambah Produk</h2>
+      <form id="productForm">
+        <input type="text" id="productName" placeholder="Nama Produk" required />
+        <input type="number" id="productPrice" placeholder="Harga Produk" required />
+        <button type="submit">Tambahkan</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="orders" class="section">
+    <div class="container">
+      <h2>Pesanan</h2>
+      <p>Belum ada pesanan yang masuk.</p>
+    </div>
+  </section>
+
+  <section id="reports" class="section">
+    <div class="container">
+      <h2>Laporan</h2>
+      <p>Data laporan akan muncul di sini.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p>Email :</p>
+      <p>Telepon: +62 123 4567 890</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Aplikasi UMKM</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
